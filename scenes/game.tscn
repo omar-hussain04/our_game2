@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://b7r8o0h12mb6v" path="res://scenes/coin.tscn" id="5_iywne"]
 [ext_resource type="PackedScene" uid="uid://bgsjs4g0yxewd" path="res://scenes/kill_zone.tscn" id="6_p57ef"]
 [ext_resource type="FontFile" uid="uid://d4gw27fyy6i6e" path="res://assests/temple/fonts/Fs Tahoma 8px-Regular.ttf" id="9_vtaks"]
-[ext_resource type="PackedScene" uid="uid://d2ggr6a3tywxs" path="res://scenes/key.tscn" id="10_vtaks"]
+[ext_resource type="PackedScene" uid="uid://ds0ik2oy0ttda" path="res://scenes/key.tscn" id="10_vtaks"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u5sy4"]
 texture = ExtResource("2_lbhrr")

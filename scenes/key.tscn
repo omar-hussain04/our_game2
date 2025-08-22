@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://d2ggr6a3tywxs"]
+[gd_scene load_steps=4 format=3 uid="uid://ds0ik2oy0ttda"]
 
 [ext_resource type="Script" uid="uid://cwmpxq4bdgreg" path="res://scripts/key.gd" id="1_fttkb"]
 [ext_resource type="Texture2D" uid="uid://clpwq0wd0m7sc" path="res://assests/temple/items/key.png" id="1_yk2u2"]
