@@ -334,6 +334,15 @@ layer_1/tile_data = PackedInt32Array(-458775, 131074, 7, -393239, 131074, 7, -32
 [node name="coin" parent="." instance=ExtResource("5_iywne")]
 position = Vector2(-54, -56)
 
+[node name="coin2" parent="." instance=ExtResource("5_iywne")]
+position = Vector2(-120, -60)
+
+[node name="coin3" parent="." instance=ExtResource("5_iywne")]
+position = Vector2(-154, -31)
+
+[node name="coin4" parent="." instance=ExtResource("5_iywne")]
+position = Vector2(-179, -56)
+
 [node name="kill zone" parent="." instance=ExtResource("6_p57ef")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="kill zone"]
