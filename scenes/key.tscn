@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2ggr6a3tywxs"]
+
+[ext_resource type="Script" uid="uid://cwmpxq4bdgreg" path="res://scripts/key.gd" id="1_fttkb"]
+[ext_resource type="Texture2D" uid="uid://clpwq0wd0m7sc" path="res://assests/temple/items/key.png" id="1_yk2u2"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fttkb"]
+radius = 6.0
+height = 32.0
+
+[node name="key" type="Node2D"]
+script = ExtResource("1_fttkb")
+
+[node name="Key" type="Sprite2D" parent="."]
+position = Vector2(0, -5)
+rotation = 1.5708
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_yk2u2")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-2, -5)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_fttkb")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
